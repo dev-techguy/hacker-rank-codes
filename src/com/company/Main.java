@@ -34,11 +34,12 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException {
-//        InputStreamReader inputStreamReader = new InputStreamReader(System.in);
-//        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-//        System.out.println("Enter a number \n");
-//        int number = Integer.parseInt(bufferedReader.readLine());
-//        new Main().fizzBuzz(number);
+        InputStreamReader inputStreamReader = new InputStreamReader(System.in);
+        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        System.out.println("Enter a number \n");
+        int number = Integer.parseInt(bufferedReader.readLine());
+        new Main().fizzBuzz(number);
+        System.exit(0);
 
         String[] arr = {"ababaa","babaa","baa","aa","a"};
         int size = arr.length;
